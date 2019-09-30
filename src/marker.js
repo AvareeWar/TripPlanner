@@ -7,10 +7,13 @@ const iconURLs = {
 };
 
 
-function buildMaker(type, coords){
-
+function buildMarker(type, coords){
+    const typeImg=new Image();
+    typeImg.src=iconURLs[type];
+    const marker=new mapbox.Marker(typeImg).setLngLat(coords);
+    return marker;
 
 }
 
 
-module.exports = buildMaker
+module.exports = buildMarker
