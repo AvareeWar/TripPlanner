@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.2/mapbox-gl.css' rel='stylesheet' />
     <title>Trip Planner</title>
     <link rel="stylesheet" href="./style.css"></link>
@@ -21,7 +22,7 @@
             <select>
               <option value='xxx'>xxx</option>
             </select>
-            <button type="button">X</button>
+            <button class = 'btn btn-danger btn-sm' type="button">X</button>
           </div>
         </div>
         <div class="input-item">
@@ -30,20 +31,52 @@
               <select>
                 <option value='xxx'>xxx</option>
               </select>
-              <button type="button">X</button>
+              <button class = 'btn btn-danger btn-sm' type="button">X</button>
             </div>
           </div>
         <div class="input-item">
-            <div class='item-names'>Reservations</div>
+            <div class='item-names'>Things To Do</div>
             <div class='selector'>
               <select>
                 <option value='xxx'>xxx</option>
               </select>
-              <button type="button">X</button>
+              <button class = 'btn btn-danger btn-sm' type="button">X</button>
             </div>
         </div>
         </div>
-        <div id='itinerary'></div>
+        <div id='itinerary'>
+            <div class = heading></div>
+            
+            <div class = 'holder'>
+                <div class = 'custom'>
+                    <div class='item-names'>Hotels</div>
+                        <div class='selectors'>
+                    
+                        <p value='xxx'>---data---</p>
+                    
+                      <button class = 'btn btn-danger btn-sm' type="button">X</button>
+                    </div>
+                </div>
+                <div class = 'custom'>
+                    <div class='item-names'>Restaurants</div>
+                        <div class='selectors'>
+                    
+                            <p value='xxx'>---data---</p>
+                    
+                        <button class = 'btn btn-danger btn-sm' type="button">X</button>
+                    </div>
+                </div>
+                <div class = 'custom'>
+                    <div class='item-names'>Things To Do</div>
+                        <div class='selectors'>
+                
+                            <p value='xxx'>---data---</p>
+                    
+                        <button class = 'btn btn-danger btn-sm' type="button">X</button>
+                    </div>
+                </div>
+            </div>
+
       </div>
     </div>
   </body>
